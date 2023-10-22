@@ -243,7 +243,7 @@ export default function WithSubnavigation() {
           py={{ base: 0, md: 2 }}
           spacing={4}
         >
-          <UserInfo />
+          <UserInfo isMobile={true} />
         </Stack>
       </Flex>
       <Box bg="white">
