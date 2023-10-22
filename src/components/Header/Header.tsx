@@ -243,13 +243,13 @@ export default function WithSubnavigation() {
           py={{ base: 0, md: 2 }}
           spacing={4}
         >
-          <UserInfo isMobile={true} />
+          <UserInfo isMobile={false} />
         </Stack>
       </Flex>
       <Box bg="white">
         <Collapse animateOpacity in={isOpen}>
           <Flex direction="column" w="96%" mt={5} mx={'auto'}>
-            <UserInfo isMobile={true} />
+            <UserInfo isMobile={false} />
           </Flex>
           <MobileNav />
         </Collapse>
