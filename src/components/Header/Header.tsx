@@ -17,6 +17,7 @@ import { useRouter } from 'next/router';
 import Link from 'next/link'
 
 import UserInfo from './UserInfo';
+import UserInfoProps
 import { Url } from 'next/dist/shared/lib/router/router';
 
 interface NavItem {

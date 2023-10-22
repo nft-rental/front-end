@@ -30,7 +30,7 @@ interface UserInfoProps {
   isMobile?: boolean;
 }
 
-export default function UserInfo({ isMobile }: { isMobile: UserInfoProps }) {
+export default function UserInfo({ isMobile }: { isMobile: boolean }) {
 
   let client: StargateClient;
 
