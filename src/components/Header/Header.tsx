@@ -39,26 +39,6 @@ const NAV_ITEMS: Array<NavItem> = [
     label: 'Dashboard',
     href: '/dashboard',
   },
-  // {
-  //   label: 'Content',
-  //   href: '/content/',
-  // },
-  // {
-  //   label: 'Frontend',
-  //   href: '/all/Frontend/',
-  // },
-  // {
-  //   label: 'Backend',
-  //   href: '/all/Backend/',
-  // },
-  // {
-  //   label: 'Blockchain',
-  //   href: '/all/Blockchain/',
-  // },
-  // {
-  //   label: 'HYPERDRIVE',
-  //   href: '/all/Hyperdrive/',
-  // },
 ]
 
 const MobileNavItem = ({ label, children, href }: NavItem) => {

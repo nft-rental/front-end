@@ -16,6 +16,7 @@ import {
 import { Grid, GridItem } from '@chakra-ui/react'
 
 import Item from '../Marketplace/item';
+import { Item3 } from '../Marketplace/item';
 
 
 
@@ -27,32 +28,27 @@ export default function DashboardComponent() {
                 <Text fontSize={30} fontWeight={"bold"}>Your NFT</Text>
                 <Grid mt={10} templateColumns='repeat(5, 1fr)' gap={4}>
                     <GridItem  >
-                        <Item></Item>
+                        <Item3 />
                     </GridItem>
                     <GridItem  >
-                        <Item></Item>
+                        <Item3 />
                     </GridItem>
                     <GridItem  >
-                        <Item></Item>
+                        <Item3 />
                     </GridItem>
                     <GridItem  >
-                        <Item></Item>
+                        <Item3 />
                     </GridItem>
                     <GridItem  >
-                        <Item></Item>
+                        <Item3 />
                     </GridItem>
                     <GridItem   >
-                        <Item></Item>
+                        <Item3 />
                     </GridItem>
                     <GridItem >
-                        <Item></Item>
+                        <Item3 />
                     </GridItem>
-                    <GridItem  >
-                        <Item></Item>
-                    </GridItem>
-                    <GridItem  >
-                        <Item></Item>
-                    </GridItem>
+
                 </Grid>
             </Stack>
 

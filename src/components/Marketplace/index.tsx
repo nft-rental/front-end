@@ -16,7 +16,7 @@ import {
 import { Grid, GridItem } from '@chakra-ui/react'
 
 import Item from './item';
-import { Item2 } from './item';
+import { Item2, Item3 } from './item';
 
 
 export default function Marketplace() {
